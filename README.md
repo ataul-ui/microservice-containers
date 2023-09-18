@@ -10,6 +10,20 @@ and also link this repo in the cloud native readme to give examples of container
 that can be uploaded to azure container registry, hmmm maybe use github actions?
 idk
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ACTUALLY JUST BASICALLY COPY WHAT MARCELUS DOES IN THIS TUTORIAL:
+https://www.youtube.com/watch?v=_lpDfMkxccc&t=1s&ab_channel=ThatDevOpsGuy 
+
+NO NEED TO DEPLOY TO AZURE DOCKER REGISTRY, CAN JUST DEPLOY TO DOCKERHUB USING
+DEPLOYMENT.YAML FILE, THEN ON THE TERRAFORM PROJECT I CAN JUST CALL THE CONTAINERS
+FROM DOCKERHUB
+
+
+
+
+
+
+
 
 explain how to upload to azure container registry using the azure cli, aka follow this tutorial:
 https://www.youtube.com/watch?v=jAWLQFi4USk&list=LL&index=1&ab_channel=AdamMarczak-AzureforEveryone 
