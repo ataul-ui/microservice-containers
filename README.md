@@ -1,5 +1,5 @@
 Hi this is the repo that contains the consumer and publisher containers,
-that are used in the microservices project. I have deployed them on azure container registry, but you can deploy them else where as well
+that are used in the microservices project. I have deployed them on dockerhub
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
