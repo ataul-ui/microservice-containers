@@ -2,6 +2,15 @@ Hi this is the repo that contains the consumer and publisher containers,
 that are used in the microservices project. I have deployed them on dockerhub
 
 
+to access images go to this dockerhub link: https://hub.docker.com/r/ataulhaq234/publisher-rabbit
+
+or use this command
+
+```bash
+docker pull ataulhaq234/publisher-rabbit
+```
+
+
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
