@@ -7,6 +7,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/streadway/amqp"
 	"os"
+	"strconv"
 )
 
 var rabbit_host = os.Getenv("RABBIT_HOST")
@@ -27,9 +28,11 @@ func main() {
 }
 
 func submit(writer http.ResponseWriter, request *http.Request, p httprouter.Params) {
-	message := p.ByName("message")
 	
-	fmt.Println("Received message: " + message)
+	number := os.Getpid()
+	message := strconv.Itoa(number)
+	
+	fmt.Println("Received pid: " + message)
 
 	conn, err := amqp.Dial("amqp://" + rabbit_user + ":" +rabbit_password + "@" + rabbit_host + ":" + rabbit_port +"/")
 
