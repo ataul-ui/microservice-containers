@@ -1,3 +1,12 @@
+
+
+This is the helper reposityory for the kube cloud project, if you wanna run the container do pull my for dockerhub as well as the rabbitmq container
+
+
+
+
+
+
 Hi this is the repo that contains the consumer and publisher containers,
 that are used in the microservices project. I have deployed them on dockerhub
 
